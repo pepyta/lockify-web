@@ -1,7 +1,7 @@
 {
     "env": {
-        "RECAPTCHA_SECRET_KEY": "@RECAPTCHA_SECRET_KEY",
-        "DATABASE_URL": "@DATABASE_URL",
-        "SECRET_FOR_TOKEN_GENERATION": "@SECRET_FOR_TOKEN_GENERATION"
+        "RECAPTCHA_SECRET_KEY": "@recaptcha_secret_key",
+        "DATABASE_URL": "@database_url",
+        "SECRET_FOR_TOKEN_GENERATION": "@secret_for_token_generation"
     }
 }
