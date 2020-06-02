@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import TwoFACard from '../components/TwoFACard';
 import TwoFALoader from '../components/TwoFALoader';
 import { API_URL } from '../modules/globals';
+import Router from 'next/router';
 
 type Token = {
     id: number,
@@ -56,6 +57,7 @@ export default class IndexPage extends React.Component<{}, {
 
         if (data['error']) {
             M.toast({ html: data['errorMessage'], classes: "error" });
+            Router.push("/login");
         } else {
             this.setState({
                 enteredCode: "",
