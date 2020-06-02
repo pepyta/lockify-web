@@ -21,7 +21,8 @@ export default async function (req, res) {
             if(!data['success']){
                 res.json({
                     error: true,
-                    errorMessage: "ReCaptcha verification failed."
+                    errorMessage: "ReCaptcha verification failed.",
+                    data
                 });
                 return;
             }
