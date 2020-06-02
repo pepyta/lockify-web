@@ -8,8 +8,27 @@
     "start": "next start"
   },
   "dependencies": {
+    "@prisma/client": "^2.0.0-beta.5",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "materialize-stepper": "^3.1.0",
     "next": "9.4.1",
+    "node-2fa": "^1.1.2",
+    "nprogress": "^0.2.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-content-loader": "^5.0.4",
+    "react-dom": "16.13.1",
+    "react-native-svg": "^12.1.0",
+    "react-recaptcha": "^2.3.10",
+    "react-recaptcha-v3": "^1.1.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.0.0-beta.5",
+    "@types/node": "^14.0.4",
+    "@types/react": "^16.9.35",
+    "typescript": "^3.9.3"
   }
 }

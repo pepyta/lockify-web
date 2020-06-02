@@ -1,0 +1,45 @@
+body {
+    background-color: #e9ebee;
+}
+
+nav a {
+    color: #000 !important;
+}
+
+.modal {
+    max-width: 600px;
+}
+
+main {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+.section-title {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 24px 0 8px 0;
+}
+       
+
+.grecaptcha-badge {
+    margin-bottom: 90px;
+}
+
+.table-of-contents a.active {
+    border-left: 2px solid #009688 !important;
+}
+
+.table-of-contents a:hover {
+    border-left: 1px solid #009688 !important;
+}
+
+.progress {
+    border-radius: 0 0 7px 7px !important;
+    margin-top: 0 !important;
+}
