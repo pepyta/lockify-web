@@ -10,9 +10,11 @@
   "dependencies": {
     "@prisma/client": "^2.0.0-beta.5",
     "bcryptjs": "^2.4.3",
+    "copy-to-clipboard": "^3.3.1",
     "dotenv": "^8.2.0",
+    "framer-motion": "^1.11.0",
     "isomorphic-fetch": "^2.2.1",
-    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
     "materialize-css": "^1.0.0-rc.2",
     "materialize-stepper": "^3.1.0",
     "next": "9.4.1",
@@ -20,10 +22,12 @@
     "nprogress": "^0.2.0",
     "react": "16.13.1",
     "react-content-loader": "^5.0.4",
-    "react-dom": "16.13.1",
+    "react-dom": "^16.13.1",
+    "react-google-login": "^5.1.20",
     "react-native-svg": "^12.1.0",
-    "react-recaptcha": "^2.3.10",
-    "react-recaptcha-v3": "^1.1.0"
+    "react-recaptcha-v3": "^1.1.0",
+    "simple-crypto-js": "^3.0.0",
+    "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
     "@prisma/cli": "^2.0.0-beta.5",

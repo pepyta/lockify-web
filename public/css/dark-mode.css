@@ -1,0 +1,44 @@
+.dark-mode {
+    background-color: #121212 !important;
+    color: #fff;
+}
+
+.dark-mode .auth-side,
+.dark-mode .fixed-action-btn a,
+.dark-mode .dropdown-content,
+.dark-mode .user-view,
+.dark-mode nav,
+.dark-mode .modal-footer,
+.dark-mode .modal,
+.dark-mode .card {
+    background-color: #272727 !important;
+}
+
+.dark-mode .sidenav {
+    background-color: #272727 !important;
+    color: #fff !important;
+}
+
+.dark-mode .divider {
+    background-color: #202020 !important;
+}
+
+.dark-mode input {
+    color: #fff !important;
+    border-bottom-color: #fff !important;
+}
+
+.dark-mode label,
+.dark-mode a,
+.dark-mode .user-view a,
+.dark-mode .material-icons {
+    color: #fff !important;
+}
+
+.dark-mode .progress {
+    background-color: #272727;
+}
+
+.dark-mode .progress .determinate {
+    background-color: #fff;
+}

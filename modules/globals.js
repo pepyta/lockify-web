@@ -1,5 +1,3 @@
-export let API_URL = "/api";
-
 export let RECAPTCHA_SITE_KEY = "6Lfo9vwUAAAAAJYV2tIJjL_Isie-u_IcjSQlPYo_";
 
 /*

@@ -16,9 +16,10 @@
       "noUnusedParameters": true,
       "resolveJsonModule": true,
       "skipLibCheck": true,
+      "strictNullChecks": false,
       "strict": true,
       "target": "esnext"
     },
     "exclude": ["node_modules"],
-    "include": ["**/*.ts", "**/*.tsx", "pages/test.js"]
+    "include": ["**/*.ts", "**/*.tsx", "pages/test.js", "pages/_app.tsx", "pages/_app.tsx"]
   }

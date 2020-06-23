@@ -31,15 +31,51 @@ main {
     margin-bottom: 90px;
 }
 
-.table-of-contents a.active {
-    border-left: 2px solid #009688 !important;
-}
-
 .table-of-contents a:hover {
     border-left: 1px solid #009688 !important;
+}
+
+.table-of-contents a.active {
+    border-left: 2px solid #009688 !important;
 }
 
 .progress {
     border-radius: 0 0 7px 7px !important;
     margin-top: 0 !important;
+}
+
+.sidenav .divider {
+    margin: 8px 0 !important;
+}
+
+.toast.error {
+    background-color: #d32f2f !important;
+    color: #fff !important;
+}
+
+.toast.successful {
+    background-color: #388e3c !important;
+    color: #fff !important;
+}
+
+.tablink {
+    color: rgba(0,0,0,0.7);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 22px;
+    -webkit-transition: color 100ms ease-in-out;
+    -ms-transition: color 100ms ease-in-out;
+    transition: color 100ms ease-in-out;
+}
+
+.tablink:hover {
+    color: #000;
+}
+
+.user-view a {
+    color: rgba(0,0,0,0.87) !important;
+}
+
+.auth-side {
+    background-color: #fff;
 }
