@@ -28,6 +28,14 @@
     border-bottom-color: #fff !important;
 }
 
+.dark-mode .btn {
+    background-color: #121212 !important;
+    color: #fff !important;
+}
+
+.dark-mode .helper-text,
+.dark-mode .tablink,
+.dark-mode .btn-flat,
 .dark-mode label,
 .dark-mode a,
 .dark-mode .user-view a,
