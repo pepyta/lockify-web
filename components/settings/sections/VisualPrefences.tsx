@@ -9,7 +9,6 @@ export default function VisualPrefences(props:{
     id: string,
     position: number
 }){
-    const M = require('materialize-css');
     props.onSectionMounted(props.id);
 
     let darkMode = useDarkMode(false);
