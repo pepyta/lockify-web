@@ -12,7 +12,7 @@
     "bcryptjs": "^2.4.3",
     "copy-to-clipboard": "^3.3.1",
     "dotenv": "^8.2.0",
-    "framer-motion": "^1.11.0",
+    "framer-motion": "^2.0.1",
     "isomorphic-fetch": "^2.2.1",
     "jwt-decode": "^2.2.0",
     "materialize-css": "^1.0.0-rc.2",
