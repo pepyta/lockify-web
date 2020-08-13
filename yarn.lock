@@ -1037,7 +1037,7 @@
   resolved "https://registry.yarnpkg.com/@popmotion/easing/-/easing-1.0.2.tgz#17d925c45b4bf44189e5a38038d149df42d8c0b4"
   integrity sha512-IkdW0TNmRnWTeWI7aGQIVDbKXPWHVEYdGgd5ZR4SH/Ty/61p63jCjrPxX1XrR7IGkl08bjhJROStD7j+RKgoIw==
 
-"@popmotion/popcorn@^0.4.2", "@popmotion/popcorn@^0.4.4":
+"@popmotion/popcorn@^0.4.2":
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/@popmotion/popcorn/-/popcorn-0.4.4.tgz#a5f906fccdff84526e3fcb892712d7d8a98d6adc"
   integrity sha512-jYO/8319fKoNLMlY4ZJPiPu8Ea8occYwRZhxpaNn/kZsK4QG2E7XFlXZMJBsTWDw7I1i0uaqyC4zn1nwEezLzg==
@@ -1047,11 +1047,6 @@
     hey-listen "^1.0.8"
     style-value-types "^3.1.7"
     tslib "^1.10.0"
-
-"@prisma/cli@^2.0.0-beta.5":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@prisma/cli/-/cli-2.0.0.tgz#d5638c627e98faaa93230359185072a19e17a020"
-  integrity sha512-RID4fOX6Y+2uHrBiFsoVt+F9oa7Z7IaO+AbwA+uepyYcjWjIhvl1cgml2mStGLyig8uuYmTOJGmh8XDkOyo10g==
 
 "@prisma/client@^2.0.0-beta.5":
   version "2.0.0"
@@ -1092,6 +1087,11 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
+
+"@use-it/event-listener@^0.1.2":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@use-it/event-listener/-/event-listener-0.1.5.tgz#870456241bfef66acea6395c69b66fe516bee3cd"
+  integrity sha512-SWbhB0iFcoNL1BEldApGTqfB9aoGpU82iZUVTBtZaTFNrVKAGwuQTF15N9MzRvTgyuOASWf1pCKXbdVtKZgeRg==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -2767,23 +2767,22 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-framer-motion@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-1.11.0.tgz#9463a4d8e1be9f25d0f75712a4a835691c028d65"
-  integrity sha512-DkJFWAHIv57L4xu8Ufq9GMs9Ifqpgt5Yi55pc4NQos8TUGomgbLlnwpO1IXK85X5K1dVNKuTZMiqjWZLeOfG/A==
+framer-motion@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-2.4.1.tgz#df37a008f94c2d05d54077d5b9988016d30db0cd"
+  integrity sha512-q0jNi01IGP/cwl1S50qYrZkmeI+0aF+sic5gmP502Ca9QSrbeCA7/wAPE94aLfyqtKO404ejIYmC1raZBv5lew==
   dependencies:
     "@popmotion/easing" "^1.0.2"
     "@popmotion/popcorn" "^0.4.2"
     framesync "^4.0.4"
     hey-listen "^1.0.8"
     popmotion "9.0.0-beta-8"
-    style-value-types "^3.1.6"
-    stylefire "^7.0.2"
+    style-value-types "^3.1.9"
     tslib "^1.10.0"
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
 
-framesync@^4.0.0, framesync@^4.0.1, framesync@^4.0.4:
+framesync@^4.0.1, framesync@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/framesync/-/framesync-4.0.4.tgz#79c42c0118f26821c078570db0ff81fb863516a2"
   integrity sha512-mdP0WvVHe0/qA62KG2LFUAOiWLng5GLpscRlwzBxu2VXOp6B8hNs5C5XlFigsMgrfDrr2YbqTsgdWZTc4RXRMQ==
@@ -4712,6 +4711,16 @@ react-content-loader@^5.0.4:
   resolved "https://registry.yarnpkg.com/react-content-loader/-/react-content-loader-5.0.4.tgz#1493491d2f6b309d281d84144a655417ea734486"
   integrity sha512-hxv4Td1kQxFOmIUbBZ2S3HGZ/jJr28aJvM+8fndm9TmNOE7tSde7WSTL6R68aTS6qE0BA3ptcWIErrP704pQSw==
 
+react-dom@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
+  integrity sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.1"
+
 react-google-login@^5.1.20:
   version "5.1.20"
   resolved "https://registry.yarnpkg.com/react-google-login/-/react-google-login-5.1.20.tgz#06afbf5fd9013455ae3bfba93054630df203542d"
@@ -4992,6 +5001,14 @@ sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
+
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 schema-utils@2.6.6:
   version "2.6.6"
@@ -5337,10 +5354,10 @@ style-loader@1.2.1:
     loader-utils "^2.0.0"
     schema-utils "^2.6.6"
 
-style-value-types@^3.1.6, style-value-types@^3.1.7:
-  version "3.1.7"
-  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-3.1.7.tgz#3d7d3cf9cb9f9ee86c00e19ba65d6a181a0db33a"
-  integrity sha512-jPaG5HcAPs3vetSwOJozrBXxuHo9tjZVnbRyBjxqb00c2saIoeuBJc1/2MtvB8eRZy41u/BBDH0CpfzWixftKg==
+style-value-types@^3.1.6, style-value-types@^3.1.7, style-value-types@^3.1.9:
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-3.1.9.tgz#faf7da660d3f284ed695cff61ea197d85b9122cc"
+  integrity sha512-050uqgB7WdvtgacoQKm+4EgKzJExVq0sieKBQQtJiU3Muh6MYcCp4T3M8+dfl6VOF2LR0NNwXBP1QYEed8DfIw==
   dependencies:
     hey-listen "^1.0.8"
     tslib "^1.10.0"
@@ -5358,17 +5375,6 @@ styled-jsx@3.3.0:
     string-hash "1.1.3"
     stylis "3.5.4"
     stylis-rule-sheet "0.0.10"
-
-stylefire@^7.0.2:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/stylefire/-/stylefire-7.0.3.tgz#9120ecbb084111788e0ddaa04074799750f20d1d"
-  integrity sha512-Q0l7NSeFz/OkX+o6/7Zg3VZxSAZeQzQpYomWmIpOehFM/rJNMSLVX5fgg6Q48ut2ETNKwdhm97mPNU643EBCoQ==
-  dependencies:
-    "@popmotion/popcorn" "^0.4.4"
-    framesync "^4.0.0"
-    hey-listen "^1.0.8"
-    style-value-types "^3.1.7"
-    tslib "^1.10.0"
 
 stylehacks@^4.0.0:
   version "4.0.3"
@@ -5690,6 +5696,21 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
+
+use-dark-mode@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/use-dark-mode/-/use-dark-mode-2.3.1.tgz#d506349c7b7e09e9977cb8a6ab4470896aa3779a"
+  integrity sha512-hmcdJR96tTustRQdaQwe6jMrZHnmPqXBxgy4jaQ4gsfhwajsCpjECuq9prgDe9XxMx/f9r96o2/md6O4Lwhwjg==
+  dependencies:
+    "@use-it/event-listener" "^0.1.2"
+    use-persisted-state "^0.3.0"
+
+use-persisted-state@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/use-persisted-state/-/use-persisted-state-0.3.0.tgz#f8e3d2fd8eee67e0c86fd596c3ea3e8121c07402"
+  integrity sha512-UlWEq0JYg7NbvcRBZ1g6Bwe4SEbYfr1wr/D5mrmfCzSxXSwsPRYygGLlsxHcW58Rf7gGwRPBT23sNVvyVn4WYg==
+  dependencies:
+    "@use-it/event-listener" "^0.1.2"
 
 use-subscription@1.4.1:
   version "1.4.1"
